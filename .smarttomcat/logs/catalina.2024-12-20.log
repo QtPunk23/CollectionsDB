@@ -1,0 +1,202 @@
+20-Dec-2024 13:25:04.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.0
+20-Dec-2024 13:25:04.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 17:00:16 UTC
+20-Dec-2024 13:25:04.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.0.0
+20-Dec-2024 13:25:04.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+20-Dec-2024 13:25:04.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+20-Dec-2024 13:25:04.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+20-Dec-2024 13:25:04.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\79377\.jdks\corretto-17.0.13
+20-Dec-2024 13:25:04.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.13+11-LTS
+20-Dec-2024 13:25:04.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Amazon.com Inc.
+20-Dec-2024 13:25:04.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\79377\Desktop\CollectionsDB\.smarttomcat
+20-Dec-2024 13:25:04.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\TM
+20-Dec-2024 13:25:04.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 13:25:04.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 13:25:04.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 13:25:04.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 13:25:04.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 13:25:04.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\TM
+20-Dec-2024 13:25:04.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\79377\Desktop\CollectionsDB\.smarttomcat
+20-Dec-2024 13:25:04.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\79377\Desktop\CollectionsDB\.smarttomcat\temp
+20-Dec-2024 13:25:04.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\79377\Desktop\CollectionsDB\.smarttomcat\conf\logging.properties
+20-Dec-2024 13:25:04.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 13:25:04.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\79377\AppData\Local\Programs\IntelliJ IDEA Community Edition\lib\idea_rt.jar=50121:C:\Users\79377\AppData\Local\Programs\IntelliJ IDEA Community Edition\bin
+20-Dec-2024 13:25:04.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 13:25:04.809 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\79377\.jdks\corretto-17.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\79377\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\79377\AppData\Local\Programs\Python\Python310\;C:\Users\79377\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\79377\AppData\Local\Programs\Python\Python312\;C:\Users\79377\AppData\Local\Microsoft\WindowsApps;C:\Users\79377\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\79377\.dotnet\tools;C:\Users\79377\AppData\Local\JetBrains\Toolbox\scripts;C:\mav\maven\bin;C:\Users\79377\Downloads\opencv\build\bin;;.]
+20-Dec-2024 13:25:05.297 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 13:25:05.324 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1035)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:953)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:706)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:729)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:469)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1472)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1033)
+		... 13 more
+20-Dec-2024 13:25:05.328 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [910] milliseconds
+20-Dec-2024 13:25:05.425 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 13:25:05.425 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0]
+20-Dec-2024 13:25:05.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\79377\Desktop\CollectionsDB\.smarttomcat\conf\Catalina\localhost\CollectionsDB.xml]
+20-Dec-2024 13:25:06.062 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\79377\Desktop\CollectionsDB\.smarttomcat\conf\Catalina\localhost\CollectionsDB.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:653)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:599)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1853)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:494)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:385)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1593)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:267)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:771)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:755)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CollectionsDB]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 36 more
+	Caused by: java.lang.IllegalArgumentException: Сервлеты названные [DiscListServlet] и [gitling.studio.app.servlet.DiscListServlet] оба привязаны к URL-ратерну [/discList], что не разрешено
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:358)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:351)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2539)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2244)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2233)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2143)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2138)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2138)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2138)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2138)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4298)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 37 more
+20-Dec-2024 13:25:06.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\79377\Desktop\CollectionsDB\.smarttomcat\conf\Catalina\localhost\CollectionsDB.xml] has finished in [619] ms
+20-Dec-2024 13:25:06.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\79377\Desktop\CollectionsDB\.smarttomcat\conf\Catalina\localhost\SuperJavaShopWithDataBase.xml]
+20-Dec-2024 13:25:06.087 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\79377\Desktop\CollectionsDB\.smarttomcat\conf\Catalina\localhost\SuperJavaShopWithDataBase.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:653)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:599)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1853)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:494)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:385)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1593)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:267)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:771)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:755)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+	Caused by: org.apache.catalina.LifecycleException: Ошибка инициализации компонента [org.apache.catalina.webresources.DirResourceSet@5ef5c734]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:125)
+		at org.apache.catalina.webresources.StandardRoot.initInternal(StandardRoot.java:690)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4079)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4201)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 36 more
+	Caused by: java.lang.IllegalArgumentException: The directory specified by base and internal path [C:/Users/79377/Desktop/SuperJavaShopWithDataBase/target/classes]\[] does not exist.
+		at org.apache.catalina.webresources.DirResourceSet.checkType(DirResourceSet.java:281)
+		at org.apache.catalina.webresources.AbstractFileResourceSet.initInternal(AbstractFileResourceSet.java:228)
+		at org.apache.catalina.webresources.DirResourceSet.initInternal(DirResourceSet.java:288)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		... 43 more
+20-Dec-2024 13:25:06.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\79377\Desktop\CollectionsDB\.smarttomcat\conf\Catalina\localhost\SuperJavaShopWithDataBase.xml] has finished in [20] ms
+20-Dec-2024 13:25:06.108 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [779] milliseconds
+20-Dec-2024 13:25:06.120 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:532)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:845)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:793)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+20-Dec-2024 13:25:06.121 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 13:25:06.122 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 13:25:06.124 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 13:25:06.126 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
